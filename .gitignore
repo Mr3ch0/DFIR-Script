@@ -1,0 +1,50 @@
+# DFIR Output Directories
+DFIR-*/
+*.zip
+
+# Memory Dumps
+*.raw
+*.dmp
+*.vmem
+
+# Evidence Files
+*.evtx
+*.hve
+*.dat
+*.pf
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# PowerShell
+*.ps1xml
+*.pssc
+*.psm1.bak
+
+# Logs
+*.log
+
+# Environment/Secrets
+.env
+*.key
+*.pem
+credentials*
+
+# IDE
+.vscode/
+.idea/
+*.suo
+*.user
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Temporary
+*.tmp
+*.temp
+~$*
